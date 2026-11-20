@@ -54,3 +54,16 @@ La ejecución terminó después de procesar las 22 operaciones.
 Los errores previstos fueron manejados sin impedir las operaciones
 posteriores. Estos resultados corresponden a los casos ejecutados
 y no garantizan el comportamiento ante todas las entradas posibles.
+
+## Pruebas automáticas
+
+Se ejecutaron los siguientes conjuntos:
+
+- Clientes: 10 pruebas.
+- Servicios: 16 pruebas.
+- Reservas: 14 pruebas.
+
+Resultado de la ejecución conjunta: 40 pruebas, estado OK.
+
+Las pruebas de reservas verifican estados, cálculos, disponibilidad,
+cancelaciones y conservación de la causa original de las excepciones.

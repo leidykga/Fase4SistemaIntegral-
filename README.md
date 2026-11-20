@@ -38,3 +38,13 @@ Los eventos y errores se registran en `sistema.log`.
 El sistema ejecuta una simulación automática, sin menú interactivo
 ni calendario de reservas.
 
+## Pruebas automáticas
+El proyecto incluye 40 pruebas de clientes, servicios y reservas.
+
+Para ejecutarlas desde la carpeta del proyecto:
+
+```bash
+python -m unittest discover -v
+```
+
+Resultado esperado: 40 pruebas ejecutadas y estado `OK`.
